@@ -3,6 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
     <title>@ViewData["Title"] - Web</title>
 
 </head>
@@ -13,6 +17,30 @@
             @RenderBody()
         </main>
     </div>
+    <footer>
+        <p>
+            email me at |
+            <a href="#">Email@example#if.com</a>
+        </p>
+        <ul class="socials">
+            <li>
+                <a href="#">
+                    <img src="/images/icon-logo-linkedin.png" alt="Alternate Text" />
+                </a>
+            </li>
 
+            <li>
+                <a href="#">
+                    <img src="images/icon-logo-instagram.png" alt="Alternate Text" />
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/icon-logo-twitter.png" alt="Alternate Text" />
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

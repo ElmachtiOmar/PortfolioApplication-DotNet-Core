@@ -1,0 +1,177 @@
+﻿/*
+        COLOR PALETTE
+
+        Dark green    #3c8453
+        Sandy beige   #bcaa96
+        Dark gray     #222222
+        Light gray    #d3d4d6
+        Off-white     #f6f6f6
+        */
+
+/* Golobal Style
+        ----------------------------- */
+html {
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #f6f6f6;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5.5rem;
+    line-height: 0.85;
+}
+
+h2 {
+    font-size: 3.3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+/* Links */
+a {
+    color: #3c8453;
+}
+
+    a:hover {
+        color: #bcaa96;
+        text-decoration: none;
+    }
+
+.btns {
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+/* Home
+        -------------------------------*/
+
+
+
+body .content-wrapper {
+    flex: 1 0 auto;
+}
+
+
+
+/* Resume
+        -------------------------------*/
+body header::before {
+    background-image: url('../images/bg-home-office-studio.jpg');
+    background-size: cover;
+    background-position: center;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+.resume-section {
+    margin-bottom: 50px;
+}
+
+    .resume-section h2 {
+        border-bottom: 2px dashed #d3d4d6;
+    }
+
+.downlaod-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 1.5rem;
+}
+/* Profile
+        ------------------------------*/
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+}
+
+    .project-item img {
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+    }
+/* Education
+        ------------------------------*/
+.education-item {
+    margin: 30px 0;
+}
+
+    .education-item p {
+        margin: 0;
+    }
+/* Footer
+        ------------------------------*/
+footer {
+    background: #222;
+    color: #d3d4d6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+    footer a {
+        color: #bcaa96;
+    }
+
+        footer a:hover {
+            color: #3c8453;
+        }
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .socials li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .socials img {
+        width: 32px;
+    }
+
+        .socials img:hover {
+            opacity: 0.5;
+        }
